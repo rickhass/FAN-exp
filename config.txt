@@ -1,0 +1,45 @@
+[HIT Configuration]
+title = Participate in a creative thinking experiment (30 min)
+description = Complete 6 short tasks in which you respond with creative ideas for uses of objects.
+
+amt_keywords = Memory, Psychology, Creativity
+lifetime = 24
+us_only = true
+approve_requirement = 85
+contact_email_on_error = hassr@philau.edu
+ad_group = CIG
+psiturk_keywords = divergent thinking, creativity, memory
+organization_name = Thomas Jefferson University
+browser_exclude_rule = MSIE, mobile, tablet
+allow_repeats = false
+
+[Database Parameters]
+database_url = sqlite:///testdata.db
+table_name = cig_fan_data
+
+[Server Parameters]
+host = 0.0.0.0
+port = 23600
+cutoff_time = 60
+logfile = server.log
+loglevel = 2
+debug = false
+login_username = examplename
+login_pw = examplepassword
+threads = auto
+#secret_key = 'this is my secret key which is hard to guess, i should change this'
+#certfile = <path_to.crt> 
+#keyfile = <path_to.key>
+#adserver_revproxy_host = www.location.of.your.revproxy.sans.protocol.com
+#adserver_revproxy_port = 80 # defaults to 80
+
+[Task Parameters]
+experiment_code_version = 1.0
+num_conds = 1
+num_counters = 1
+
+[Shell Parameters]
+launch_in_sandbox_mode = true
+bonus_message = “Thanks for participating”
+use_psiturk_ad_server = true
+ad_location = false

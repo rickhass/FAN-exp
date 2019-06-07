@@ -1,0 +1,160 @@
+
+body {
+    padding:0px;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    font-size: 13pt;
+}
+
+/* text styling */
+strong {
+  font-weight: 600;
+}
+
+.warm {
+  color: steelblue;
+  text-align: justify;
+}
+
+.cool {
+  color: #ccccff;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+h3 {
+  text-align: center;
+}
+
+/****** Slide Styles ******/
+
+div.slide{
+    width: 800px;
+    position: relative;
+    padding: 1% 2% 1% 2%;
+    margin: 0 auto;
+    display: block;
+}
+
+div.spacer {
+  width:650px;
+  height: 50px;
+}
+
+div.blue {
+    background-color: #b3f0ff;
+    font-size: 18px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid #b3f0ff;
+    position: relative;
+}
+
+div.continue {
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+}
+
+
+/* these are all the same for now, but easy to modify individually */
+#container-not-an-ad, #container-error, #container-exp, #container-consent, #container-instructions, #container-questionnaire, #instructionsnav {
+  margin: 0 auto;
+  margin-top: 0;
+  width: 800px;
+  font-size: 100%;
+}
+
+div.container-instructions, div.instructionsnav {
+  margin: 0 auto;
+  margin-top: 0;
+  width: 800px;
+  font-size: 100%;
+}
+
+.inside-instruct {
+  background-color: inherit;
+}
+
+#container-prompt{
+  background: white;
+  margin: 0 auto;
+  width: 400px;
+  font-size: 120%;
+}
+
+/* the style below is for the task input */
+input[type="text"] {
+  position: relative;
+  margin-top: 100px;
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+/* ad.html  - the ad that people view first */
+#adlogo {
+    width: 140px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    margin-right: 1em;
+}
+
+/* consent.html - the consent form */
+#consent {
+  margin: 0 auto;
+  margin-top: 0;
+  width: 800px;
+  font-size: 100%;
+}
+
+.legal {
+  text-align: justify;
+  font-size: 11pt;
+  line-height: 1.1em;
+}
+
+#trial {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+}
+
+#resp-entry{
+  height: 50px;
+  align-items: center;
+  position:relative;
+}
+
+#prompt-show{
+  background: white;
+  margin: auto;
+  width: 650px;
+  height: auto;
+  padding: 70px 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+#query {
+  color: darkgray;
+}
+
+.question {
+  margin-bottom: 30px;
+}
+
+/* errors */
+#error img {
+  padding-right: 10px;
+  padding-top: 15px;
+}

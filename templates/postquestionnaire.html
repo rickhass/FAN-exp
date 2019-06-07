@@ -1,0 +1,110 @@
+
+<div id="container-questionnaire">
+    <h1>Task Complete</h1>
+
+    <hr />
+  		<p>Thank you for your participation in our study!  Your anonymous data makes an
+  		important contribution to our understanding of human learning and memory. </p>
+
+  		<p>The different prompts are hypothesized to have different numbers of associations in your memory system. We are especially interested in how long it took you to think of each response, which will help us understand how the different objects recruit different bits of your knowledge.</p>
+
+  		<p>If you have any questions about this research, you may contact the
+  		principal investigator, <a href="mailto:hassr@philau.edu?Subject=HIT%20Question" target="_top">Richard Hass</a>.</p>
+
+      <p>Before you can recieve payment, we just need a few more pieces of information from you. Please answer the questions below</p>
+
+    <div class="instructions well">
+
+        <form id="postquiz" action="debrief" method="post">
+
+            <!-- beginning of a question -->
+            <div class="row question">
+                <div class="col-md-8">
+                    On a scale of 1-10 (where 10 is the most engaged), please rate how <b>ENGAGING</b> you found the tasks:
+                </div>
+                <div class="col-md-4">
+                    <select id="engagement" name="engagement">
+                        <option value="10">10 - Very engaging</option>
+                        <option value="9">9</option>
+                        <option value="8">8</option>
+                        <option value="7">7</option>
+                        <option value="6">6</option>
+                        <option value="5" SELECTED>5 - Moderately</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0">0 - Not engaged</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end of a question -->
+
+            <!-- beginning of a question -->
+            <div class="row question">
+                <div class="col-md-8">
+                    Please indicate your sex / gender:
+                </div>
+                <div class="col-md-4">
+                    <select id="Sex" name="Sex">
+                      <option value="" selected>--Make a Selection--</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end of a question -->
+
+            <!-- beginning of a question -->
+            <div class="row question">
+                <div class="col-md-8">
+                    Please indicate your age:
+                </div>
+                <div class="col-md-4">
+                    <select class="18-100" id="age" name="age">
+                      <option value="18" selected>18</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end of a question -->
+
+            <!-- beginning of a question -->
+            <div class="row question">
+                <div class="col-md-8">
+                    Please indicate your Ethnicity:
+                </div>
+                <div class="col-md-4">
+                    <select id="ethnic" name="ethnic">
+                      <option value="" selected>--Make a Selection--</option>
+                      <option value="W">White or Caucasian</option>
+                      <option value="AA">African American</option>
+                      <option value="HL">Hispanic or Latino</option>
+                      <option value="AS">Asian or Pacific Islander</option>
+                      <option value="NA">Native American</option>
+                      <option value="O">Other</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end of a question -->
+        </form>
+    </div>
+
+    <hr />
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+            </div>
+            <div class="col-xs-7">
+            </div>
+            <div class="col-xs-3">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                    Continue <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>

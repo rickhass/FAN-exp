@@ -1,0 +1,70 @@
+<!-- this is modeled after Jess Hamrick's experiment. Each one of these Divs (except the last)
+contains instructions for each phase of the task, and are called to show by the Instructions() function
+at the very bottom is the HTML that is operated on for the actual tasks -->
+
+<div class="slide" id="instruct-practice">
+  <h1>Task Instructions</h1>
+  <div class="blue">
+	   <p>This is a practice trial. It will last 30 seconds. It is designed to help you get used to the procedure
+       for the experiment.</p>
+    <p>When you press "Start", the name of a specific category will appear on the screen.</p>
+    <p>As soon as you think of an example of that category, type it into the field and press ENTER.</p>
+	   <p>It is important to keep thinking of responses and to type them in for the entire time</p>
+	    <p>Please type them in <b> one at a time</b> as they come to you, and <b>press ENTER after typing each one.</b></p>
+	     <p>Pressing ENTER will clear the response field so that you can continue to type new responses.</p>
+        <p>When the 30 seconds are over, you will recieve instructions about the first real experimental trial.</p>
+    </div>
+
+      <div class="continue">
+        <button type="button" class="next">Start</button>
+      </div>
+    </div>
+
+<div class="slide" id="instruct-ou1">
+      <h1>Task Instructions</h1>
+      <div class="blue">
+        <p>This is the first block of real trials. There will be FIVE 3-minute trials before your next break (~15 minutes)</p>
+        <p>We want you to come up with as many original and creative uses for objects as you can. The goal is to come up with <b>creative ideas</b>, which are ideas that strike people as clever, unusual, interesting, uncommon, humorous, innovative, or different.</p>
+        <p>You will do this for five different objects, with 3 minutes on each one.</p>
+        <p>Remember to press ENTER after EACH response</p>
+        <p>Press <b>START</b> below to begin</p>
+    </div>
+      <div class="continue">
+        <button type="button" class="next">Start</button>
+      </div>
+    </div>
+
+    <div class="slide" id="instruct-ou2">
+          <h1>Task Instructions</h1>
+          <div class="blue">
+            <p>This is the second and final block of real trials. You may take a short break now if you wish, but remember, you have 70 minutes to complete this hit.</p>
+            <p>You will be asked to type uses for another 5 different objects, with 3  minutes on each one.</p>
+            <p>When you are finished with this block, you are done, except for a short questionnaire.</p>
+
+            <p>To remind you, you should come up with as many original and creative uses for objects as you can. The goal is to come up with <b>creative ideas</b>, which are ideas that strike people as clever, unusual, interesting, uncommon, humorous, innovative, or different.</p>
+
+            <p>Remember to press ENTER after EACH response</p>
+            <p>Press <b>START</b> below to begin</p>
+        </div>
+          <div class="continue">
+            <button type="button" class="next">Start</button>
+          </div>
+    </div>
+
+
+
+<!-- this is the holder for the actual response phase-->
+<div class="slide" id="trial">
+  <!-- prompt box -->
+  <div id="entry" class="blue">
+    <div id="prompt-show" class="phase">
+      <div class="spacer"></div>
+    </div>
+    <!-- response entry field -->
+    <div id="resp-entry" class="phase">
+        <div class="spacer"></div>
+        <label for="resp-input">Type Each Response Here:<br>Press ENTER after EACH response</label>
+          <input id="resp-input" type="text">
+        </div>
+      </div>
+</div>
